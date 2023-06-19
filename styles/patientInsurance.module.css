@@ -1,0 +1,76 @@
+.button_class{
+    margin-top: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    
+  }
+  .button_class:hover{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.button_class_delete_red{
+      display: inline-block;
+      outline: 0;
+      cursor: pointer;
+      border: 2px solid #b13f3f;
+      border-radius: 3px;
+      color: #b13f3f;
+      background: #fff;
+      font-size:20px;
+      font-weight: 600;
+      line-height: 18px;
+      text-align:center;
+      transition-duration: .15s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(.4,0,.2,1);
+  }
+  
+  .button_class_delete_red:hover{
+    background: #b13f3f;
+      color: #ffffff;
+  }
+
+.item_border{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_border{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.insurance_item{
+    width: 20%;
+}
+
+.insurance_heading{
+    font-size: 24px;
+
+}

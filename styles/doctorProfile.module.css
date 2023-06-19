@@ -1,0 +1,65 @@
+.person_icon{
+
+    font-size:80px;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.profile_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+
+.card {
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin-bottom: 150px;
+  }
+
+  .card_container {
+    padding:50px;
+  }
+  
+  ._area{
+    color:#0070f3;
+  }
+
+  ._area_red{
+    color:rgb(108, 2, 2);
+  }
+
+.button_class{
+  margin-top: 15px;
+  margin-right: 10px;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #000;
+  background: #fff;
+  font-size:20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align:center;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  padding:5px;
+}
+.button_class:hover{
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.card p{
+    margin:15px;
+}

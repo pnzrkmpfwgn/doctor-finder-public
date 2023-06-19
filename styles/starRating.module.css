@@ -1,0 +1,20 @@
+
+.startbutton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    opacity: 1;
+  }
+  .on {
+    color: rgb(246, 255, 0);
+    font-size: 30px;
+    opacity: 1;
+  }
+  .off {
+    color: #ccc;
+    font-size: 30px;
+    opacity: 1;
+  }

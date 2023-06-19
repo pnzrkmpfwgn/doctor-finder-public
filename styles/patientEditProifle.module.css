@@ -1,0 +1,47 @@
+.heading{
+    margin:25px;
+    color:rgb(29, 4, 195);
+}
+
+.profile_explanation{
+    margin: 25px;
+    color: rgb(142, 142, 142);
+    font-size:24px;
+    font-style: italic;
+}
+
+.button_class{
+    margin-top: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    font-size:20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    padding:5px;
+  }
+  .button_class:hover{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+  }
+  .no_margin{
+    margin:0;
+  }
+  .filter_black{
+    filter:brightness(0) saturate(100%)
+   }
+
+   .fields{
+    margin: 25px;
+   }
+
+   
