@@ -1,0 +1,39 @@
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 300px;
+}
+
+.map_container {
+  width: 80%;
+  height: 100vh;
+}
+
+.search_map_container{
+  width: 60%;
+  height:100vh;
+}
+
+.map_container_medium{
+  width: 80%;
+  height: 100%;
+}
+
+.map_container_schedule{
+  width:650px;
+  height: 100%;
+}
+
+.search_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}

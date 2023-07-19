@@ -1,0 +1,86 @@
+/* :root {
+    --primary: white;
+    --black: black;
+    --green:#286c1c;
+    --green-light:rgb(3, 173, 3);
+    --grey:rgb(97, 96, 96);
+    --skin:rgb(241, 241, 234);
+    --hidden-opacity: 0;
+  } */
+
+  .btnblack {
+    padding: 8px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btnblack:hover {
+    background: rgb(3, 127, 165);
+    color: white;
+    transition: all 0.3s ease-out;
+  }
+  
+  .userpass {
+    box-shadow: inset rgb(110, 110, 110) 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 60vh;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(3, 127, 165);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all 0.2s ease;
+    margin-bottom: 10px;
+  }
+  
+  .userpass:hover {
+    box-shadow: 0 0 0 0 rgb(235, 235, 235) inset, rgb(3, 127, 165) 0 0 0 2px;
+  }
+  .userpass:focus {
+    background: rgb(247, 242, 242);
+    outline: 0;
+    box-shadow: 0 0 0 0 rgb(255, 251, 251) inset, rgb(5, 225, 233) 0 0 0 3px;
+  }
+  
+  
+  .containerbig{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top:50px;
+  }
+  
+  .loginbox {
+    width: 32vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.heading{
+    text-align: center;
+    font-size:36px;
+    font-weight: bolder;
+    color:rgb(0, 0, 170)
+}
+.info{
+    color:#7f7e7e;
+    font-size:28px;
+}
+
+.error_section{
+  color: rgb(255, 0, 0);
+  font-size:18px;
+  width: 50%;
+}

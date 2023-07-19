@@ -1,0 +1,26 @@
+.star_rating {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+  }
+  .on {
+    color: rgb(192, 198, 0);
+    font-size: 20px;
+    opacity: 1;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+
+  }
+  .off {
+    color: #ccc;
+    font-size: 20px;
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgb(81, 81, 81);
+    padding: 10px;
+    border: 1px solid black;
+
+  }

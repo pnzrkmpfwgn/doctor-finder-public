@@ -1,0 +1,24 @@
+.content {
+    height: 150px;
+    width: 100%;
+  }
+
+  .button_class{
+    padding: 10px;
+    font-size:28px;
+    color: rgb(208, 208, 208);
+    background-color: rgb(65, 65, 65);
+    position: fixed;
+    right: 0px;
+    bottom:50px;
+    z-index: 99999999;
+    margin-right: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .button_class:hover{
+    background-color: rgb(50, 50, 50);
+    transform: scale(1.1);
+    transition: 0.5 ease-in-out;
+  }
